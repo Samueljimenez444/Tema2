@@ -21,14 +21,15 @@ public class Ejer3 {
 		 * sera casi nulo, si el numero introducido es 0 se mostrara al usuario y por
 		 * ultimo si todo esto es falso el numero no sera casi nulo
 		 */
-		if (numero - NUMEROTEST > 1)
+		if (numero - NUMEROTEST > 1) {
 			System.out.println("El numero no es numero casi nulo");
-		else if (numero - NUMEROTEST < -1) {
+		} else if (numero - NUMEROTEST < -1) {
 			System.out.println("El numero no es numero casi nulo");
-		} else if (numero == 0)
+		} else if (numero == 0) {
 			System.out.println("El numero no es un numero casi nulo (es 0)");
-		else
+		} else {
 			System.out.println("El numero es un numero casi nulo");
+		}
 		// Cierra Scanner
 		lectura.close();
 	}

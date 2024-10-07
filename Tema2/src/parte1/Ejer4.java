@@ -19,12 +19,13 @@ public class Ejer4 {
 		 * b si por otra parte b>a se mostrara que b es mayor a "a" por ultimo si a=b se
 		 * mostrara que ambos son iguales
 		 */
-		if (a < b)
+		if (a < b) {
 			System.out.println("El numero" + a + " Es mayor que " + b);
-		else if (b > a)
+		} else if (b > a) {
 			System.out.println("El numero" + b + " Es mayor que " + a);
-		else
+		} else {
 			System.out.println("Los numeros son iguales");
+		}
 		// Cierre Scanner
 		lectura.close();
 

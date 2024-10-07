@@ -14,10 +14,11 @@ public class Ejer1 {
 //Valor de a en funcion del input
 		a = lectura.nextInt();
 		/* Condicional que realiza un modulo y calcula si el numero es par o impar */
-		if (a % 2 == 0)
+		if (a % 2 == 0) {
 			System.out.println("El numero introducido es par");
-		else
+		} else {
 			System.out.println("El numero introducido no es par (Es impar)");
+		}
 //Cierre Scanner
 		lectura.close();
 	}

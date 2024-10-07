@@ -22,10 +22,11 @@ public class Ejer2 {
 		/*
 		 * Creacion de condicional que comparara los numero para ver si son o no iguales
 		 */
-		if (a == b)
+		if (a == b) {
 			System.out.println("Los numeros son iguales");
-		else
+		} else {
 			System.out.println("Los numeros no son iguales");
+		}
 		// Cierre Scanner
 		lectura.close();
 
