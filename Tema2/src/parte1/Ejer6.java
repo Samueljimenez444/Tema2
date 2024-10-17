@@ -14,6 +14,7 @@ public class Ejer6 {
 		// Creamos el comparador que servira para decidir si la ecuacion tiene una
 		// solucion dentro de R o no
 		float comparador;
+
 		// Creamos la variable resultxx que servira para calcular el resultado de la
 		// ecuacion con signo +
 		float resultxx;
@@ -26,6 +27,8 @@ public class Ejer6 {
 		numa = lectura.nextInt();
 		numb = lectura.nextInt();
 		numc = lectura.nextInt();
+		//
+		float resultx=-numb/numc;
 		// Aqui se realizara la operacion matematica que se encuentra dentro de la raiz
 		// cuadrada
 		comparador = (float) (((Math.sqrt((numb) * (numb)) + (-4 * numa * numc))) / (2 * numa));
@@ -41,6 +44,8 @@ public class Ejer6 {
 		 * sera anulado y no sera calculable dentro en "R", si el resultado de dentro no
 		 * es negativo se realizaran los calculos y se printeara el resultado
 		 */
+		if(numa==0)
+		System.out.println(resultx);
 		if (comparador < -1)
 			System.out.println("El resultado no existe entre los numeros reales");
 		else
