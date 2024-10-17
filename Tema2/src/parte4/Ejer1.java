@@ -25,7 +25,7 @@ public class Ejer1 {
 		 */
 		while (numero >= 0) {
 			System.out.println("Introduzca numeros positivos para sumarlos");
-			suma += numero;
+			suma += numero ;
 			numero = lectura.nextInt();
 
 		}
