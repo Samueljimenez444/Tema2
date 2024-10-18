@@ -12,7 +12,7 @@ Scanner reader=new Scanner(System.in);
 System.out.println("Introduce a number");
 number=reader.nextInt();
 ++counter;
-while(counter<=9)
+while(counter<9)
 multiplier=number*counter;
 System.out.println(multiplier);
 ++counter;

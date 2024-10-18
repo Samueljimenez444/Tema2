@@ -11,6 +11,7 @@ int numero=rand.nextInt(1,101);
 int trying=0;
 Scanner reader=new Scanner(System.in);
 System.out.println("Introduce a number");
+trying=reader.nextInt();
 while(trying!=numero && trying!=-1) {
 	System.out.println("Try again");
 	trying=reader.nextInt();
@@ -20,10 +21,13 @@ while(trying!=numero && trying!=-1) {
 	else if(trying>numero) {
 		System.out.println("The number you introduced is higher");
 	} 
-	else if (trying==numero)
-			System.out.println("You are the winner");
+
 }
+if(numero==-1) {
 System.out.println("You loose");
+}
+else if(trying==numero)
+	System.out.println("You are the winner");
 System.out.println("The number was " + numero);
 	}
 }
