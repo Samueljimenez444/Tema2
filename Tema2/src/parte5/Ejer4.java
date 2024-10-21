@@ -16,5 +16,8 @@ multiplicacion=numero*contador;
 System.out.println(multiplicacion);
 contador++;
 	}while(contador<=10);
+	lectura.close();
+	
 	}
+
 }
