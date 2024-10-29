@@ -13,9 +13,10 @@ public class Ejer9 {
 		numero = lectura.nextInt();
 		do {
 			cifras++;
-		division=numero / 10;
+		division=numero/10;
+		numero=division;
 		}while (division != 0);
-		System.out.println(cifras);
+		System.out.println("El numero introducido tiene "+cifras+ " cifras");
 	}
 
 }
